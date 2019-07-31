@@ -25,7 +25,7 @@ laser_focal_distance = 100.e-6   # Focal distance from the injection (in meters)
 laser_t_peak         = 30.e-15   # The time at which the laser reaches its peak
                                  # at the antenna injection location (in seconds)
 # --- plasma
-plasma_density_expression = "1.e23*(1+tanh((z - 20.e-6)/10.e-6))/2."
+plasma_density_expression = "1.e23*(1+tanh((z-20.e-6)/10.e-6))/2."
 plasma_min     = [-20.e-6, -20.e-6,  0.0e-6]
 plasma_max     = [ 20.e-6,  20.e-6,  1.e-3]
 
